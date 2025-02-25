@@ -19,4 +19,4 @@ function cadastrar (){
         </div>
     );
 }
-export default Menu;
+export default cadastrar;
