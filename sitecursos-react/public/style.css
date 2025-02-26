@@ -108,6 +108,7 @@ h2 {
 .links{
     font-size: 16px;
     color: #19314D;
+    text-decoration: none;
 }
 
 h4{
@@ -148,3 +149,18 @@ h4{
     background-color: #e60000;
 }
 
+.botao-cursos {
+    background-color: white;
+    border-radius: 30px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #274C77;
+}
+
+.botao-cursos:hover {
+    background-color: #274C77;
+    color: white;
+}

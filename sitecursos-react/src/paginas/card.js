@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Card({ titulo, icone, link}) {
   const linkStyle = {
-    textDecoration: "none", // Remove o sublinhado
+    textDecoration: "none",
     color: "inherit",
   };
 

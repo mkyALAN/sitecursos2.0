@@ -15,28 +15,28 @@ function Cursos() {
                 {/* Cards dos Cursos */}
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
                     <div className="col d-flex justify-content-center">
-                        <Card_curso link={'/cursos_java'} titulo={'Java Básico'} img={'/img/1.svg'} />
+                        <Card_curso link={'/cursos_java'} titulo={'Java Básico'} img={'/img/java.png'} />
                     </div>
                     <div className="col d-flex justify-content-center">
-                        <Card_curso link={'/cursos_python'} titulo={'Python para Iniciantes'} img={'/img/2.svg'} />
+                        <Card_curso link={'/cursos_python'} titulo={'Python para Iniciantes'} img={'/img/python.png'} />
                     </div>
                     <div className="col d-flex justify-content-center">
-                        <Card_curso link={'/cursos_js'} titulo={'JavaScript Essencial'} img={'/img/3.svg'} />
+                        <Card_curso link={'/cursos_js'} titulo={'JavaScript Essencial'} img={'/img/js.png'} />
                     </div>
                     <div className="col d-flex justify-content-center">
-                        <Card_curso link={'/cursos_csharp'} titulo={'C# Fundamentos'} img={'/img/1.svg'} />
+                        <Card_curso link={'/cursos_csharp'} titulo={'C Fundamentos'} img={'/img/c.png'} />
                     </div>
                     <div className="col d-flex justify-content-center">
-                        <Card_curso link={'/cursos_sql'} titulo={'Banco de Dados SQL'} img={'/img/1.svg'} />
+                        <Card_curso link={'/cursos_sql'} titulo={'Banco de Dados SQL'} img={'/img/mysql.png'} />
                     </div>
                     <div className="col d-flex justify-content-center">
-                        <Card_curso link={'/cursos_html_css'} titulo={'HTML & CSS Avançado'} img={'/img/1.svg'} />
+                        <Card_curso link={'/cursos_html_css'} titulo={'GO Básico'} img={'/img/go.png'} />
                     </div>
                     <div className="col d-flex justify-content-center">
-                        <Card_curso link={'/cursos_react'} titulo={'React do Zero ao Avançado'} img={'/img/1.svg'} />
+                        <Card_curso link={'/cursos_react'} titulo={'React do Zero ao Avançado'} img={'/img/react.png'} />
                     </div>
                     <div className="col d-flex justify-content-center">
-                        <Card_curso link={'/cursos_react'} titulo={'React do Zero ao Avançado'} img={'/img/1.svg'} />
+                        <Card_curso link={'/cursos_react'} titulo={'C++ Fundamentos'} img={'/img/cmais.png'} />
                     </div>
                 </div>
             </div>

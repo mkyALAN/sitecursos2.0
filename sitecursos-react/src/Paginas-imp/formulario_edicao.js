@@ -82,18 +82,12 @@ function EditarPerfil() {
                 </div>
                 </div>
 
-                {/* Botões */}
                 <div className="d-flex justify-content-center gap-2 mt-4">
                 <button type="submit" className="btn btn-salvar">Salvar Alterações</button>
                 <button type="button" className="btn btn-limpar" onClick={limparFormulario}>Limpar</button>
                 <button type="button" className="btn btn-excluir" onClick={excluirItem}>Excluir</button>
                 </div>
             </form>
-            </div>
-
-            {/* Coluna da Imagem */}
-            <div className="col-md-7 d-none d-md-block text-center">
-            <img src="./img/" alt="Perfil" className="img-fluid rounded" />
             </div>
         </div>
 </div>
