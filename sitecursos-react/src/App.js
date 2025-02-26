@@ -10,6 +10,7 @@ import Usuario from './paginas/usuario';
 import CursoPython  from './paginas/curso_python';
 import CursoJava from './paginas/curso_java';
 import EditarPerfil from './paginas/formulario_edicao';
+import Cursos from './paginas/cursos';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/cursos" element={<CursoPython />} />
           <Route path="/cursos_java" element={<CursoJava />} />
           <Route path="/formulario_edicao" element={<EditarPerfil />} />
+          <Route path="/cursos" element={<Cursos />} />
         </Routes>
       </main>
     </div>
