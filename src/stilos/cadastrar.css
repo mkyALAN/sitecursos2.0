@@ -27,7 +27,6 @@ body, html {
     height: 390px;
     background-color: white;
     border-radius: 20px;
-    text-align: center;
     font-family: 'koulen', sans-serif;
     transition: transform 0.3s ease;
 }

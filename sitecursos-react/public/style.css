@@ -1,0 +1,150 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section {
+    padding-top: 20px;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #6096BA;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #cccccc;
+}
+
+.footer-section p:hover {
+    color: #6096BA;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #6096BA;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        min-width: 100%;
+    }
+}
+
+h1 {
+    color: #E7ECEF;
+    font-size: 50px;
+    font-family: jaro, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #8B8C89;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.botao {
+    background-color: white;
+    border-radius: 30px;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #274C77;
+}
+
+.botao:hover {
+    background-color: #274C77;
+    color: white;
+}
+
+.botao-login {
+    background-color: #274C77;
+    border-radius: 30px;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #E7ECEF;
+}
+
+.botao-login:hover {
+    background-color: #19314D;
+    color:#E7ECEF;
+}
+
+.cadastro {
+    padding: 20px;
+    background-color: #E7ECEF;
+    text-align: center;
+    font-family: 'koulen', sans-serif;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 5px 15px #000000;
+}
+
+.links{
+    font-size: 16px;
+    color: #19314D;
+}
+
+h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.aluno{
+    margin-left: 15%;
+    margin-top: 80px;
+}
+
+.btn-salvar {
+    background-color: #4297e1;
+    color: white;
+}
+
+.btn-salvar:hover {
+    background-color: #3572EF;
+}
+
+.btn-limpar {
+    background-color: #f1f1f1;
+    color: #30388D;
+}
+
+.btn-limpar:hover {
+    background-color: #ddd;
+}
+
+.btn-excluir {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.btn-excluir:hover {
+    background-color: #e60000;
+}
+

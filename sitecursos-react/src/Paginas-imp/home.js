@@ -3,23 +3,12 @@ import { Link } from 'react-router-dom';
 
 function Home(){
     return(
-        <div className="home">
-            <div>
+        <div className="home" style={{position: "relative", minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden"}}>
+            <div className='fundo text-center justify-content-center align-items-center'style={{width: "100%",minHeight: "100vh", backgroundImage: 'url(/img/1.svg)', backgroundSize: "cover", backgroundPosition: "center", padding:'25vh'}}>
                 <h1>PORQUE NÃO APRENDER UMA NOVA <br/> LINGUAGEM DE PROGRAMAÇÃO <br/> EM 2025?</h1>
+                <h2>Comece agora:</h2>
+                <Link class="btn botao" to="/entrar">Entrar</Link>    
             </div>
-
-            <div class="img-dev">
-            <img src="src/imgs/dev.png" alt="" width="450px"/>
-            </div>
-
-            <div class="comece-agora">
-        <h2>COMECE AGORA:</h2>
-        <a href="entrar.html">
-            <button id="botao-comecar" class="botao-comecar">
-                COMEÇAR
-            </button>
-        </a>
-    </div>
         </div>
     );
 }
